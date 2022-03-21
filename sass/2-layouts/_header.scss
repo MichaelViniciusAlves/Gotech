@@ -1,0 +1,109 @@
+@import'../1-base/variables';
+
+.header {
+  background-color: $bg-color;
+
+  .container {
+    height: 119px;    
+  }
+
+  &__body {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-height: 42px;
+    text-align: center;
+    width: 1200px;
+  }
+
+  &__logo {
+    align-items: center;
+    text-align: center;
+    top: 49px;
+
+    .logo {
+      color: #9D60EB;
+      font-size: 30px;
+      height: 22px;
+      width: 37px;
+
+      span {
+        background: transparent linear-gradient(300deg, #24553A 0%, #49BE55 100%) 0% 0% no-repeat padding-box;
+        height: 24px;
+        margin-left: 0;
+        opacity: 1;
+        padding: 0;
+        width: 58px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+
+  &__menu {
+
+    margin-left: 108px;
+    .menu {
+      display: flex;
+      justify-content: space-between;
+
+      .menu-item {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+
+      .menu-item-link {
+        color: rgba(157, 96, 235, 1);
+        font-weight: 500;
+      }
+
+      li {
+        margin-left: 35px;
+
+        a {
+          color: rgba(85, 85, 85, 1);
+          font-size: 14px; 
+          font-weight: normal;
+        }
+
+        span {
+          background-color: rgba(157, 96, 235, 1);
+          border-radius: 100%;
+          height: 8px;        
+          position: absolute;
+          top: 22px;
+          width: 8px;
+        }
+      }
+    }
+  }
+
+  &__form {
+    #search-form {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      width: 436px;
+
+      #search {
+        border: 1px solid rgba(198, 186, 248, 1);
+        border-radius: 4px;
+        height: 42px;
+        padding: 0 17px;
+        width: 270px;
+
+        &::placeholder {
+          color: rgba(204, 204, 204, 1);
+        }
+      } 
+      
+      i {
+        color: rgba(198, 186, 248, 1);
+        right: 270px;
+        position: absolute;
+      }
+    }
+  }
+}

@@ -1,0 +1,253 @@
+@import'../1-base/variables';
+
+.footer {
+    background-color: $bg-color;
+    max-height: 677px;
+    position: relative;
+
+    .container {
+        height: 677px;
+    }
+
+    &__container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin-top: 0;
+        width: 1110px;
+    }
+
+    &__logo {
+        margin-bottom: 78px;
+
+        .logo {
+            color: #9D60EB;
+            font-size: 30px;
+            height: 22px;
+            width: 37px;
+      
+            span {
+              background: transparent linear-gradient(300deg, #24553A 0%, #49BE55 100%) 0% 0% no-repeat padding-box;
+              height: 24px;
+              margin-left: 0;
+              opacity: 1;
+              padding: 0;
+              width: 58px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 162px;
+        z-index: 1;
+
+        h1 {
+            color: #101C21;
+            font-size: 15px;
+            font-weight: 500px;
+            margin-bottom: 23px;
+        }
+
+        span {
+            color: #777;
+            font-size: 13px;
+            font-weight: normal;
+        }
+
+        &-contact {
+            margin-bottom: 30px;
+            margin-right: 171px;
+            width: 166px;
+
+            .footer-telephone {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                text-align: left;
+                margin-bottom: 25px;
+
+                i {
+                    font-size: 13px;
+                }
+                
+                span {
+                    margin: 0 auto;
+                }
+            }
+
+            .footer-address {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 25px;
+                text-align: left;
+
+                i {
+                    font-size: 14px;
+                    margin-right: 10px;
+                }
+
+                span {
+                    margin: 0 auto;
+                }
+            }
+
+            .footer-email {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 25px;
+                text-align: left;
+                position: relative;
+
+                i {
+                    font-size: 14px;
+                }
+
+                span {
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        &-company {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: 137px;
+            width: 107px;
+
+            span {
+                margin-bottom: 16px;
+            }
+        }
+
+        &-social {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: 150px;
+            width: 119px;
+
+            span {
+                margin-bottom: 16px;
+            }
+        }
+
+        &-address {
+            width: 248px;
+
+            &-follow {
+                width: 100%;
+
+                h1 {
+                    margin-top: 21px;
+                    margin-bottom: 16px;
+                }
+
+                .follow-links {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 225px;
+
+                    i {
+                        color: #fff;
+                        font-size: 15px;
+                    }
+
+                    .facebook {
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        background: transparent linear-gradient(45deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+                        border-radius: 50%;
+                        height: 40px;
+                        margin-right: 20px;
+                        width: 40px;
+                    }
+
+                    .skype {
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        background: transparent linear-gradient(23deg, #00B56C 0%, #1DBE75 22%, #68D58C 68%, #9EE69D 100%) 0% 0% no-repeat padding-box;
+                        border-radius: 50%;
+                        height: 40px;
+                        margin-right: 20px;
+                        width: 40px;
+                    }
+
+                    .linkedin {
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        background: transparent linear-gradient(90deg, #FF9AB6 0%, #F03295 99%, #F03295 100%) 0% 0% no-repeat padding-box;
+                        border-radius: 50%;
+                        height: 40px;
+                        margin-right: 20px;
+                        width: 40px;
+                    }
+
+                    .instagram {
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        background: transparent linear-gradient(47deg, #F09376 0%, #F0DB79 100%) 0% 0% no-repeat padding-box;
+                        border-radius: 50%;
+                        height: 40px;
+                        margin-right: 20px;
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        color: #777;
+        font-size: 13px;
+        margin-top: 143px;
+        position: absolute;
+        bottom: 120px;
+        z-index: 1;
+    }
+
+    &__background {
+        background: transparent linear-gradient(4deg, #FFFFFF 0%, #DFF0FF 100%) 0% 0% no-repeat padding-box;
+        height: 260px;
+        width: 1600px;
+        position: absolute;
+        bottom: 0;
+
+        .footer__img {
+            align-items: flex-end;
+            display: flex;
+            justify-content: space-between;
+            height: 229px;
+            margin: 53px auto;
+            padding: 0;
+            width: 1110px;
+
+            &-img1 {
+                height: 172px;
+                width: 323px;
+            }
+
+            &-img2 {
+                height: 229px;
+                width: 323px;
+            }
+        }
+
+        span {
+            color: #777;
+            font-size: 13px;
+        }
+    }
+}

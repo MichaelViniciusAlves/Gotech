@@ -1,0 +1,130 @@
+@import'../1-base/variables';
+
+.form {
+    background: transparent linear-gradient(1deg, #FFFFFF 0%, #C9E6FF 100%) 0% 0% no-repeat padding-box;
+    height: 900px;
+    position: relative;
+
+    .container {
+        height: 900px;
+    }
+
+    &-content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 782px;
+        margin-bottom: 59px;
+        margin-top: 59px;
+        width: 770px;
+    }
+
+    &-title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 35px;
+        line-height: 50px;
+        text-align: center;
+
+        &-primary {
+            font-weight: normal;
+        }
+    }
+
+    &-box {
+        background-color: #fff;
+        box-shadow: 0px 20px 60px #3E3E3E29;
+        border-radius: 8px;
+        height: 650px;
+        width: 770px;
+
+        &-content {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 60px 51px 48px 52px;
+            position: relative;
+            width: 100%;
+
+            label {
+                color: $title-color;
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+
+            input {
+                position: relative;
+
+                &::placeholder {
+                    color: #c2c2c2;
+                    font-size: 13px;
+                }
+            }
+
+            .half-box {
+                display: flex;
+                flex-direction: column;
+                margin-right: 48px;
+
+                input {
+                    border-bottom: 1px solid #E5E5E5;
+                    height: 50px;
+                    width: 310px;
+                }
+            }
+
+            .full-box {
+                display: flex;
+                flex-direction: column;
+                margin-top: 35px;
+                width: 668px;
+
+                input {
+                    border-bottom: 1px solid #E5E5E5;
+                    height: 50px;
+                    padding: 0;
+                }
+
+                i {
+                    position: absolute;
+                    top: 265px;
+                    right: 110px;
+                }
+
+                #message {
+                    height: 110px;
+                    
+                    &::placeholder {
+                        text-align: start;
+                    }
+                }
+            }
+
+            .form-button {
+                margin-bottom: 48px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    &-person1 {
+        bottom: -10px;
+        height: 292px;
+        left: 40px;
+        position: absolute;
+        width: 292px;
+    }
+
+    &-person2 {
+        bottom: -10px;
+        right: 140px;
+        position: absolute;
+    }
+
+    &-person3 {
+        bottom: -10px;
+        right: 30px;
+        position: absolute;
+    }
+}

@@ -1,0 +1,73 @@
+@import'../1-base/variables';
+
+.deal {
+    background-color: $bg-color;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 1202px;
+    }
+
+    &__container {
+        height: 1034px;
+        margin-top: 168px;
+    }
+
+    &__inner {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 466px;
+        justify-content: center;
+        margin-bottom: 131px;
+        width: 1112px;
+
+        #figure2 {
+            img {
+                margin-left: 97px;
+                margin-right: 80px;
+            }
+        }
+
+        #figure3 {
+            margin-left: 80px;
+            margin-right: 97px;
+        }
+    }
+
+    &__content {
+        width: 519px;
+
+
+        &-title-primary {
+            color: $title-color;
+            font-size: 36px;
+            font-weight: normal;
+            line-height: 30px;
+        }
+
+        &-title-secondary {
+            color: $title-color;
+            font-size: 36px;
+            margin-bottom: 25px;
+            font-weight: 600;
+
+            span {
+                font-weight: normal;
+            }
+        }
+
+        &-text-primary {
+            color: $text-color;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        &-text-secondary {
+            color: $text-color;
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+    }
+}

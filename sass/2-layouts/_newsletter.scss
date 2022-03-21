@@ -1,0 +1,117 @@
+@import'../1-base/variables';
+
+.newsletter {
+    background-color: $bg-color;
+    height: 808px;
+
+    .container {
+        height: 705px;
+        position: relative;
+
+        .figure1 {
+            left: 139px;
+            top: 191px;
+            position: absolute;
+        }
+
+        .figure2 {
+            left: 0px;
+            top: 383px;
+            position: absolute;
+        }
+
+        .figure3 {
+            left: 107px;
+            top: 578px;
+            position: absolute;
+        }
+
+        .figure4 {
+            right: 145px;
+            top: 191px;
+            position: absolute;
+        }
+
+        .figure5 {
+            right: 0;
+            top: 408px;
+            position: absolute;
+        }
+
+        .figure6 {
+            right: 121px;
+            top: 620px;
+            position: absolute;
+        }
+    }
+
+    &-content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 595px;
+        margin-top: 110px;
+        text-align: center;
+        width: 693px;
+    }
+
+    &-title {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 45px;
+
+        span {
+            font-weight: normal;
+        }
+    }
+
+    &-quote {
+        align-items: center;
+        display: flex;
+        color: #333;
+        justify-content: space-between;
+        position: absolute;
+        
+        img {
+            margin-left: 305px;
+            margin-right: 305px;
+        }
+    }
+
+    &-text {
+        font-family: #333;
+        font-size: 24px;
+        font-weight: normal;
+        height: 101px;
+        margin-bottom: 33px;
+        margin-top: 23px;
+        text-align: center;
+        width: 532px;
+    }
+
+    &-name {
+        color: $title-color;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+
+    &-about {
+        color: $title-color;
+        font-size: 14px;
+    }
+
+    &-icon {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        margin-bottom: 44px;
+
+        a {
+            margin-left: 37px;
+            margin-right: 37px;
+        }
+    }
+}

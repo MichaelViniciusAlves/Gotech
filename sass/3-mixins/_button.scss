@@ -1,0 +1,26 @@
+@import'../1-base/variables';
+
+.btn {
+    background: transparent linear-gradient(59deg, rgba(99, 98, 215, 1) 0%, rgba(255, 143, 226, 1) 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    padding: 11px 26px 11px 27px;
+    font-weight: 500;
+
+    &-primary {
+        color: rgba(255, 255, 255, 1);
+        font-size: 14px;
+    }
+
+    &-secondary {
+        color: #fff;
+        margin-right: 36px;
+        padding: 14px 31px 13px 31px;
+    }
+
+    &-third {
+        color: #9D60EB;
+        background: transparent;
+        border: 1px solid #9D60EB;
+        padding: 14px 31px 13px 31px;
+    }
+}
