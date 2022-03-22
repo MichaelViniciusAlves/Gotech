@@ -214,25 +214,28 @@
         font-size: 13px;
         margin-top: 143px;
         position: absolute;
-        bottom: 120px;
-        z-index: 1;
+        bottom: 140px;
+        z-index: 2;
     }
 
     &__background {
-        background: transparent linear-gradient(4deg, #FFFFFF 0%, #DFF0FF 100%) 0% 0% no-repeat padding-box;
-        height: 260px;
+        background: linear-gradient(to bottom right,#fff 50%, #DFF0FF 50%);
+        height: 283px;
         width: 1600px;
         position: absolute;
         bottom: 0;
 
         .footer__img {
             align-items: flex-end;
+            bottom: 0;
             display: flex;
             justify-content: space-between;
-            height: 229px;
-            margin: 53px auto;
+            height: 210px;
+            left: 263px;
             padding: 0;
             width: 1110px;
+            position: absolute;
+            z-index: 2;
 
             &-img1 {
                 height: 172px;
